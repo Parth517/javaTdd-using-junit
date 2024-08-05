@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.DigitToWordsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in com.example.DigitToWordsTest
+testWords(com.example.DigitToWordsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[one lakhs]> but was:<[ten thousand]>
+	at com.example.DigitToWordsTest.testWords(DigitToWordsTest.java:18)
+
