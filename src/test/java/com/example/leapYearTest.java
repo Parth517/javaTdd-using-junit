@@ -9,6 +9,9 @@ public class leapYearTest {
 
     @Test
     public void testLeapYear(){
-        
+        assertEquals(true,helper.isLeap(2016));
+        assertEquals(false,helper.isLeap(1900));
+        assertEquals(true,helper.isLeap(4000));
+        assertEquals(true,helper.isLeap(2004));
     }
 }
