@@ -18,7 +18,6 @@ public class DigitToWords {
         } else if (num < 10000000) {
             ans = toWords(num / 100000) + " lakhs" + (num % 100000 == 0 ? "" : " " + toWords(num % 100000));
         }
-
         return ans;
     }
 }
