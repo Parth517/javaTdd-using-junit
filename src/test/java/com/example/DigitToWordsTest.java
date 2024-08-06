@@ -15,6 +15,6 @@ public class DigitToWordsTest {
         assertEquals("twenty-two", DigitToWords.toWords(22));
         assertEquals("one thousand", DigitToWords.toWords(1000));
         assertEquals("one thousand two hundred thirty-three", DigitToWords.toWords(1233));
-        assertEquals("one lakhs", DigitToWords.toWords(10000));
+        assertEquals("one lakhs", DigitToWords.toWords(100000));
     }
 }
