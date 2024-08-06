@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.leapYearTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in com.example.leapYearTest
-testLeapYear(com.example.leapYearTest)  Time elapsed: 0.011 s  <<< FAILURE!
-java.lang.AssertionError: expected:<false> but was:<true>
-	at com.example.leapYearTest.testLeapYear(leapYearTest.java:13)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.example.leapYearTest
