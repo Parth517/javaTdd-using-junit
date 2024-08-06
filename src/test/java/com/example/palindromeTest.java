@@ -1,14 +1,16 @@
 package com.example;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
 
 public class palindromeTest {
     Palindrome helper=new Palindrome();
     @Test
-    publi void testPalindrome(){
-        assetEquals("abcba",helper.isPalindrome(true));
-        assetEquals("abcdba",helper.isPalindrome(false));
-        assetEquals("wow",helper.isPalindrome(true));
-        assetEquals("abcdcba",helper.isPalindrome(true));
+    public void testPalindrome() {
+        assertEquals(true, helper.isPalindrome("abcba"));
+        assertEquals(false, helper.isPalindrome("abcdba"));
+        assertEquals(true, helper.isPalindrome("wow"));
+        assertEquals(true, helper.isPalindrome("abcdcba"));
     }
 }

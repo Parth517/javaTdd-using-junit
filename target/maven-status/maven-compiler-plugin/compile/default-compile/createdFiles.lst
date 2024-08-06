@@ -1,3 +1,4 @@
 com\example\DigitToWords.class
-com\example\App.class
 com\example\StringHelper.class
+com\example\App.class
+com\example\Palindrome.class
